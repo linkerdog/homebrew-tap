@@ -1,21 +1,20 @@
 class Agenthub < Formula
   desc "Single-binary control plane for long-lived AI agents"
   homepage "https://github.com/hawkingrei/agenthub"
-  url "https://github.com/hawkingrei/agenthub/releases/download/v0.0.4/agenthub-0.0.4-source.tar.gz"
-  sha256 "5cef01ff1904775b711d76a4be2ec709d3957abd63fac8da4a9942e673965c1f"
+  url "https://github.com/hawkingrei/agenthub/releases/download/v0.0.7/agenthub-0.0.7-source.tar.gz"
+  sha256 "2a0d6a829df3fd8054af98fbb5e463f70af553b852c5e2151c7b4cbfd31666ce"
   license "Apache-2.0"
-  version "0.0.4"
 
   on_macos do
     on_arm do
       resource "agenthub-bin" do
-        url "https://github.com/hawkingrei/agenthub/releases/download/v0.0.4/agenthub-0.0.4-darwin-arm64.tar.gz"
-        sha256 "4e484aa1e683d0eb9c4d4248a32b01e63913f0888f9e9db8f09624d80460bdcb"
+        url "https://github.com/hawkingrei/agenthub/releases/download/v0.0.7/agenthub-0.0.7-darwin-arm64.tar.gz"
+        sha256 "781e9aec7ed96246ba6591f2064f7d82fad2eb6da7d857601deff4b0236b66ef"
       end
 
       resource "agenthub-codex-acp-bin" do
-        url "https://github.com/hawkingrei/agenthub/releases/download/v0.0.4/agenthub-codex-acp-0.0.4-darwin-arm64.tar.gz"
-        sha256 "2d865c50275d3f5ab353d5b09dcb609932c01fa347bb10248e8dc6a058002a03"
+        url "https://github.com/hawkingrei/agenthub/releases/download/v0.0.7/agenthub-codex-acp-0.0.7-darwin-arm64.tar.gz"
+        sha256 "b77d4d314b45f1d7e8d93e777ed2a8d1828195c597b41d106cc789bfc1869161"
       end
     end
   end
@@ -23,25 +22,25 @@ class Agenthub < Formula
   on_linux do
     on_intel do
       resource "agenthub-bin" do
-        url "https://github.com/hawkingrei/agenthub/releases/download/v0.0.4/agenthub-0.0.4-linux-amd64.tar.gz"
-        sha256 "01e178d4b583b5a223486cf435bd302d62dc62c3c801415fa2a28c1cf6150905"
+        url "https://github.com/hawkingrei/agenthub/releases/download/v0.0.7/agenthub-0.0.7-linux-amd64.tar.gz"
+        sha256 "8783bf09920c47cb832b60b4b95ef7d76ee4fe08ba9bb83c0da4ccee30ec804d"
       end
 
       resource "agenthub-codex-acp-bin" do
-        url "https://github.com/hawkingrei/agenthub/releases/download/v0.0.4/agenthub-codex-acp-0.0.4-linux-amd64.tar.gz"
-        sha256 "6ca1ba0d1d625c2a929edcf24f8f128e631fcb0f2550685db17897d4b9547dec"
+        url "https://github.com/hawkingrei/agenthub/releases/download/v0.0.7/agenthub-codex-acp-0.0.7-linux-amd64.tar.gz"
+        sha256 "82155c0692573df14bc7c850c40eaf02395f6ad71aebea2a8f0fab6746817aaa"
       end
     end
 
     on_arm do
       resource "agenthub-bin" do
-        url "https://github.com/hawkingrei/agenthub/releases/download/v0.0.4/agenthub-0.0.4-linux-arm64.tar.gz"
-        sha256 "2fb37f336318ad34bdcb55853455e823f6d7d469d7ffefc9f0010f4b650c04d3"
+        url "https://github.com/hawkingrei/agenthub/releases/download/v0.0.7/agenthub-0.0.7-linux-arm64.tar.gz"
+        sha256 "9a6242c3c055b3a53c754292f4dac281a1b700af766ea346918ad9ee3017a712"
       end
 
       resource "agenthub-codex-acp-bin" do
-        url "https://github.com/hawkingrei/agenthub/releases/download/v0.0.4/agenthub-codex-acp-0.0.4-linux-arm64.tar.gz"
-        sha256 "5af39c6319d6b7896a5436372a317e2a0f41c44cb79e4e9a1c696372e456342b"
+        url "https://github.com/hawkingrei/agenthub/releases/download/v0.0.7/agenthub-codex-acp-0.0.7-linux-arm64.tar.gz"
+        sha256 "6fcc8ea8bfef04fb37ef9b5099e3ebfca5722f443e322e39e31743d0e189abb8"
       end
     end
   end
