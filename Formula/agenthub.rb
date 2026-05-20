@@ -4,7 +4,6 @@ class Agenthub < Formula
   url "https://github.com/hawkingrei/agenthub/releases/download/v0.0.7/agenthub-0.0.7-source.tar.gz"
   sha256 "2a0d6a829df3fd8054af98fbb5e463f70af553b852c5e2151c7b4cbfd31666ce"
   license "Apache-2.0"
-  version "0.0.7"
 
   on_macos do
     on_arm do
